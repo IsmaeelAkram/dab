@@ -20,7 +20,7 @@ async def main():
             print(
                 f"{time.asctime()} — Sent message {message.id} to chat {pump_chat_id}"
             )
-            time.sleep(60)
+            time.sleep(60 * 3)
 
 
 app.run(main())
