@@ -6,7 +6,7 @@ api_id = 29080736
 api_hash = "1526c448a89b7799ccb140b1822b7344"
 
 app = Client("my_account", api_id=api_id, api_hash=api_hash)
-pump_chat_id = 5577171870
+pump_chat_id = -1001996676648
 
 
 async def main():
