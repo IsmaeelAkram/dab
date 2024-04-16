@@ -14,8 +14,8 @@ async def main():
         while True:
             message = await app.send_photo(
                 pump_chat_id,
-                "./dab.webp",
-                caption="DogAteBee - $DAB\nI'm literally just a dog that ate a bee. smfh.",
+                "./dab.jpeg",
+                caption="DogAteBee - $DAB\nI'm literally just a dog that ate a bee.",
             )
             print(
                 f"{time.asctime()} — Sent message {message.id} to chat {pump_chat_id}"
