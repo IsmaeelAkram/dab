@@ -14,7 +14,7 @@ async def main():
         while True:
             message = await app.send_photo(
                 pump_chat_id,
-                "https://dogatebee.com/dab.webp",
+                "./dab.webp",
                 caption="DogAteBee - $DAB\nI'm literally just a dog that ate a bee. smfh.",
             )
             print(
